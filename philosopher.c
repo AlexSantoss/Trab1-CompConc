@@ -65,9 +65,9 @@ void *filosofo(void *pFilosofo){
 }
 
 /*
-Esta e uma implementacao da solucao proposta por djikstra porem pegando o garfo com maior numero primeiro. Bem parecida com a
-solucao usando numeros pares e impares. A diferenca e que, nessa solucao, seria como se todos pegassem o da direita com a 
-excessao do ultimo, que vai pegar o da esquerda. Isso resolve problemas de deadlock, ja que mesmo se todos tentarem pegar todos,
-um deles vai ficar sem e outro vai conseguir os dois.
-Tambem adicionei a opcao de pensar, uma das coisas que o filosofo pode fazer
+Esta é uma implementação da solução proposta por djikstra porém pegando o garfo com maior número primeiro. Bem parecida com a 
+solução usando números pares e ímpares, a diferença é que, nessa solução, seria como se todos pegassem o da direita com a 
+exceção do último, que vai pegar o da esquerda. Isso resolve problemas de deadlock, já que mesmo se todos tentarem pegar todos, 
+um deles vai ficar sem e outro vai conseguir os dois. Também adicionei a opção de pensar, uma das coisas que o filósofo pode 
+fazer
 */
