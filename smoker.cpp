@@ -39,3 +39,16 @@ int main(){
 	}
 	return 0;
 }
+
+
+/*
+Três fumantes estão em uma mesa e cada um deles possui estoque ilimitado de cada um dos três ingredientes para fazer um cigarro.
+Tabaco, fosforo e papel. Um agente externo sinaliza que dois deles podem colocar a mesa seus respectivos materiais para produzir um cigarro, 
+e então um fumante pega esses dois recursos e produz um cigarro(juntamente com seu terceiro material) e fuma. 
+Ao terminar, ele sinaliza ao agente que já terminou e o agente coloca mais 2 ingredientes.
+*/
+
+/*
+Os erros do código são de starvation pois, um dos processos repetidamente continua tendo acesso aos recursos providos pelo
+agente enquanto que os outros dois esperam seu término, pois o programa trava as threads restantes na hora da seção critica.
+*/
