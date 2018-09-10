@@ -43,9 +43,8 @@ int main(){
 
 /*
 Três fumantes estão em uma mesa e cada um deles possui estoque ilimitado de cada um dos três ingredientes para fazer um cigarro.
-Tabaco, fosforo e papel. Um agente externo sinaliza que dois deles podem colocar a mesa seus respectivos materiais para produzir um cigarro, 
-e então um fumante pega esses dois recursos e produz um cigarro(juntamente com seu terceiro material) e fuma. 
-Ao terminar, ele sinaliza ao agente que já terminou e o agente coloca mais 2 ingredientes.
+Tabaco, fosforo e papel. Um agente externo coloca 2 ingredientes na mesa. O fumante com o terceiro ingrediente faz o cigarro e
+fuma. Ao terminar, ele sinaliza ao agente que já terminou e o agente coloca mais 2 ingredientes.
 */
 
 /*
